@@ -1,0 +1,14 @@
+
+.site-footer
+{
+  background-color: #26272b;
+    padding: 5px 0; /* Puedes ajustar este valor según tus necesidades */
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    position:-webkit-sticky;
+    width: 100%;
+}

@@ -1,0 +1,33 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.titulo{
+background: transparent;
+  text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+  margin-bottom: 0; /* Elimina el margen inferior */
+}
+
+html {
+  height: 100%;
+  font-size: 14px;
+ 
+}
+
+body {
+  height: 100%;
+  background: linear-gradient(100deg, #110f41 0%, #ab0000 150%);
+}
+
+.bg-gradient-custom {
+  background: linear-gradient(75deg,  #706ea4 0% , #a95519 150%);
+  color: #fff; 
+}
+
+
+
+
