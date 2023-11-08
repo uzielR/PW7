@@ -14,13 +14,13 @@
 
 
     @if  (session()->has('confirmacion'))
-    <script>
-        Swal.fire({
-               incon: 'Good job!',
-               title: 'Libro guardado!',
-               text: '{{ session('confirmacion')}}',
-            } )
-    </script>
+        <script>
+            Swal.fire({
+                incon: 'Good job!',
+                title: 'Libro guardado!',
+                text: '{{ session('confirmacion')}}',
+                } )
+        </script>
     @endif
 
     @if  ($errors->any())
@@ -36,6 +36,7 @@
     @endif
             
     <br>
+
     <div class= "card" >
         
         <div class="card-header fs-2 fw-medium text-light text-center bg-danger">
